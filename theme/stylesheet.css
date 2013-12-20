@@ -1,0 +1,241 @@
+/* 
+    Created on : 6-dec-2013, 11:41:53
+    Author     : Leroy
+*/
+html
+{
+    font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+body
+{
+    padding:0px;
+    border:0px;
+    margin:0px;
+    width:100%;
+    overflow:hidden;
+}
+
+#background
+{
+    background-image: url('images/headerimage.jpg');
+    background-repeat:no-repeat;
+    background-size:100%;
+    width:100%;
+    float: left;
+    padding:0px;
+    border:0px;
+    margin:0px;
+}
+
+#header 
+{
+    width: 100%;
+    height: 80px;
+    float: top;
+    background-color:rgba(255, 255, 255, 0.5);
+    background-repeat:repeat-x;
+    background-size:100%;
+}
+
+#myconcept
+{
+    float:right;
+    margin:10px;
+    height:60px;
+    width:100px;
+    background-size: 75%;
+    background-image: url('images/MyConceptHeader.png');
+    background-repeat:no-repeat;
+    position: absolute;
+    margin-left: -80px;
+}
+
+#myconceptcontent
+{
+    margin-left: 40%;
+    float: left;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 25px;
+}
+
+#submenuholder
+{
+    height:30px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#submenu
+{
+    height: 0px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    float: left; 
+    background-color:rgba(0, 70, 139, 0.5);
+}
+
+#submenuspacer
+{
+    height: 30px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#336699;
+}
+
+.submenuitem
+{
+    height: 20px;
+    width:auto;
+    text-align: center;
+    float:left;
+    padding:5px;
+}
+
+#footer
+{
+    position: absolute;
+    height: 40px;
+    width: 100%;
+    background-color: blue;
+}
+
+#myconcepticons
+{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+}
+
+.menuspacer 
+{
+    height: 80px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menuitem 
+{
+    height: 50px;
+    width:auto;
+    text-align: left;
+    float:left;
+    padding:30px 10px 0px 10px;
+}
+
+#content 
+{
+    width: 500px;
+    height: 500px;
+}
+
+#agenda
+{
+    margin-top:100px;
+    width:40px;
+    height:300px;
+    float:right;
+    background-color:rgba(0, 70, 139, 0.5);
+    color:#ffffff;
+}
+
+#agendaHeader
+{
+    width:250px;
+    height:40px;
+    float:left;
+}
+
+.agendaItem
+{
+    width:250px;
+    text-align:left;
+}
+
+#centerBlok
+{
+    width:500px;
+    height:auto;
+    margin-top:40px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:10px;
+    background-color:#00468b;
+    background-color:rgba(0, 70, 139, 0.5);
+    color:#ffffff;
+}
+
+#loep
+{
+    height:200px;
+    width:100%;
+    padding:30px;
+    float:left;
+    background-color:#003366;
+}
+
+#box
+{
+    height:200px;
+    width:100%;
+    padding:30px;
+    float:left;
+    background-color:#336699;
+}
+
+#erlenmeyer
+{
+    height:200px;
+    width:100%;
+    padding:30px;
+    float:left;
+    background-color:#036936;
+}
+
+#beeldscherm
+{
+    height:200px;
+    width:100%;
+    padding:30px;
+    float:left;
+    background-color:#999999;
+}
+
+#back
+{
+    right: 0;
+    bottom: 0;
+    background-color:#ffffff;
+    z-index: 10;
+    position:fixed;
+}
+
+h2
+{
+    margin:0px;
+    padding:0px;
+    font-size: 0.2;
+}
+
+p
+{
+    margin:0px;
+    padding:0px;
+}
+
+a 
+{
+    color:#000000;
+}
+
+textarea
+{
+    resize:none;
+}
+
