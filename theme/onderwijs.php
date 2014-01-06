@@ -11,14 +11,18 @@ and open the template in the editor.
         <script type="text/javascript" src="jquery-2.0.3.min.js"></script>
     </head>
     <body>
+        
+
         <div id="background">
+    
             <?php
+            $id = 1;
             include 'inc/inc_topmenu.php';
             include 'inc/inc_header.php';
             include 'inc/inc_submenu.php';
             include 'inc/inc_content.php';
-            include 'inc/inc_agenda.php';
             ?>
+
 
 
         </div>

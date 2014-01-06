@@ -12,14 +12,17 @@ and open the template in the editor.
     </head>
     <body>
         <div id="background">
+           
             
             <?php
-             include 'inc/inc_topmenu.php';
-             include 'inc/inc_header.php';
-             include 'inc/inc_submenu.php';
-             include 'inc/inc_content.php';
-             include 'inc/inc_agenda.php';
+            $id = 0;
+            include 'inc/inc_topmenu.php';
+            include 'inc/inc_header.php';
+            include 'inc/inc_submenu.php';
+            include 'inc/inc_content.php';
+            include 'inc/inc_agenda.php';
             ?>
+            
         </div>
         <div id="back"><a href="#background">Klik hier om terug te gaan naar de top</a></div>
         <div id="loep">
@@ -30,7 +33,7 @@ and open the template in the editor.
         <div id="erlenmeyer"></div>
         <div id="beeldscherm"></div>
         <?php
-            include 'inc/inc_footer.php';
+        include 'inc/inc_footer.php';
         ?>
     </body>
 </html>
