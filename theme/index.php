@@ -20,10 +20,6 @@ and open the template in the editor.
              include 'inc/inc_content.php';
              include 'inc/inc_agenda.php';
             ?>
-
-
-            
-
         </div>
         <div id="back"><a href="#background">Klik hier om terug te gaan naar de top</a></div>
         <div id="loep">
