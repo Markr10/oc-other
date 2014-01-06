@@ -22,42 +22,9 @@ Date    : 16-12-2013
                 mail($to, $subject, $message, $headers);
             }
             ?> 
-            <script type="text/javascript">
-                $(document).ready(function() {
-
-                    $('.menuitem:eq(4)').css({"background-color": "#00468b", "color": "#ffffff"});
-
-                    $('.menuitem').hover(
-                            function()
-                            {
-                                $(this).css({"background-color": "#00468b", "color": "#ffffff"});
-                                $('#submenu').stop().animate({height: 30}, 100);
-                                $('#submenu').show;
-                            },
-                            function()
-                            {
-                                $(this).css({"background-color": "", "color": "#000000"});
-                                $('.menuitem:eq(4)').css({"background-color": "#00468b", "color": "#ffffff"});
-                                $('#submenu').hide;
-                                $('#submenu').stop().animate({height: 0}, 100);
-                            });
-
-                    $('#submenu').hover(
-                            function()
-                            {
-                                $('#submenu').stop().animate({height: 30}, 100);
-                                $('#submenu').show;
-                            },
-                            function()
-                            {
-                                $('#submenu').hide;
-                                $('#submenu').stop().animate({height: 0}, 100);
-                            });
-
-                    );
-                });
-            </script>
+            
             <?php
+            include 'inc/inc_topmenu.php';
             include 'inc/inc_header.php';
             include 'inc/inc_submenu.php';
             ?>
