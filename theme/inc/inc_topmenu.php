@@ -8,9 +8,11 @@ echo '<script type="text/javascript">
                             {
                                 $(this).css({"background-color": "#00468b", "color": "#ffffff"});
                                 $(\'#submenu\').stop().animate({height: 30}, 100);
+                                $(\'#submenuspacer\').stop().animate({height: 30}, 100);
+                                $(\'.submenuitem\').stop().animate({height: 30}, 100);
                                 $(\'#submenu\').show;
                                 $(\'#submenuspacer\').show;
-                                $(\'#submenuitem\').show;
+                                $(\'.submenuitem\').show;
                             },
                             function()
                             {
@@ -18,8 +20,10 @@ echo '<script type="text/javascript">
                                 $(\'.menuitem:eq(0)\').css({"background-color": "#00468b", "color": "#ffffff"});
                                 $(\'#submenu\').hide;
                                 $(\'#submenuspacer\').hide;
-                                $(\'#submenuitem\').hide;
+                                $(\'.submenuitem\').hide;
                                 $(\'#submenu\').stop().animate({height: 0}, 100);
+                                $(\'#submenuspacer\').stop().animate({height: 0}, 100);
+                                $(\'.submenuitem\').stop().animate({height: 0}, 100);
                             });
 
                     $(\'#submenu\').hover(
