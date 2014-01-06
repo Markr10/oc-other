@@ -12,55 +12,8 @@ and open the template in the editor.
     </head>
     <body>
         <div id="background">
-            <script type="text/javascript">
-                $(document).ready(function() {
-                    $('.menuitem:eq(4)').css({"background-color": "#00468b", "color": "#ffffff"});
-
-                    $('.menuitem').hover(
-                            function()
-                            {
-                                $(this).css({"background-color": "#00468b", "color": "#ffffff"});
-                            },
-                            function()
-                            {
-                                $(this).css({"background-color": "", "color": "#000000"});
-                                $('.menuitem:eq(0)').css({"background-color": "#00468b", "color": "#ffffff"});
-                            });
-                            
-                    $('.menuitem').click(  
-                            function()
-                            {
-                                $('#submenu').stop().animate({width: 50}, 100);
-                                $('#submenu').show;
-                            },
-                            function()
-                            {
-                                $('#submenu').hide;
-                                $('#submenu').stop().animate({height: 0}, 100);
-                            });
-
-                    $('#agenda').hover(
-                            function()
-                            {
-                                $(this).stop().animate({width: 250}, 500);
-                            },
-                            function()
-                            {
-                                $(this).stop().animate({width: 40}, 500);
-                            });
-
-                    $('#back').hover(
-                            function()
-                            {
-                                $(this).css({"background-color": "#00468b", "color": "#ffffff"});
-                            },
-                            function()
-                            {
-                                $(this).css({"background-color": "", "color": "#000000"});
-                            });
-                });
-            </script>
             <?php
+            include 'inc/inc_topmenu.php';
             include 'inc/inc_header.php';
             include 'inc/inc_submenu.php';
             include 'inc/inc_content.php';
