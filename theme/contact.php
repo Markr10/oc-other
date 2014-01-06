@@ -61,6 +61,7 @@ and open the template in the editor.
                 });
             </script>
             <?php
+            include 'inc/inc_header.php';
             include 'inc/inc_submenu.php';
             include 'inc/inc_content.php';
             include 'inc/inc_agenda.php';
