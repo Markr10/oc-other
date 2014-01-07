@@ -1,5 +1,5 @@
                 $(document).ready(function() {
-                    $('.menuitem:eq(".active")').css({"backgroundColor": "#00468b", "color": "#ffffff"});
+                    $('.menuitem.current_page_item').css({"backgroundColor": "#00468b", "color": "#ffffff"});
                     
                     $('.menuitem').hover(
                             function()
@@ -15,7 +15,7 @@
                             function()
                             {
                                 $(this).css({"backgroundColor": "", "color": "#000000"});
-                                $('.menuitem:eq(<?php echo $id; ?>)').css({"backgroundColor": "#00468b", "color": "#ffffff"});
+                                $('.menuitem.current_page_item').css({"backgroundColor": "#00468b", "color": "#ffffff"});
                                 $('#submenu').hide;
                                 $('#submenuspacer').hide;
                                 $('.submenuitem').hide;

@@ -9,6 +9,7 @@ Date    : 16-12-2013
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
         <script type="text/javascript" src="jquery-2.0.3.min.js"></script>
+        <script type="text/javascript" src="topmenu.js"></script>
     </head>
     <body>
         <div id="background">
@@ -24,10 +25,12 @@ Date    : 16-12-2013
             ?> 
             
             <?php
-            include 'inc/inc_topmenu.php';
+            $id = 4;
             include 'inc/inc_header.php';
             include 'inc/inc_submenu.php';
+            include 'inc/inc_agenda.php';
             ?>
+            
             <div id="centerBlok">
                 <form method = "POST" action = "#">
                     <p> Onderwerp </p>
