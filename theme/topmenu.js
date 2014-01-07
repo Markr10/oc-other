@@ -15,7 +15,7 @@
                             function()
                             {
                                 $(this).css({"backgroundColor": "", "color": "#000000"});
-                                $('.menuitem:eq(<?php echo $id; ?>)').css({"backgrounColor": "#00468b", "color": "#ffffff"});
+                                $('.menuitem:eq(<?php echo $id; ?>)').css({"backgroundColor": "#00468b", "color": "#ffffff"});
                                 $('#submenu').hide;
                                 $('#submenuspacer').hide;
                                 $('.submenuitem').hide;
