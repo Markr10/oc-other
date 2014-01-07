@@ -1,7 +1,7 @@
                 $(document).ready(function() {
-                    $('.menuitem.current_page_item').css({"backgroundColor": "#00468b", "color": "#ffffff"});
+                    $('.menuitem.current_page_item > a').css({"backgroundColor": "#00468b", "color": "#ffffff"});
                     
-                    $('.menuitem').hover(
+                    $('.menuitem > a').hover(
                             function()
                             {
                                 $(this).css({"backgroundColor": "#00468b", "color": "#ffffff"});
@@ -15,7 +15,7 @@
                             function()
                             {
                                 $(this).css({"backgroundColor": "", "color": "#000000"});
-                                $('.menuitem.current_page_item').css({"backgroundColor": "#00468b", "color": "#ffffff"});
+                                $('.menuitem.current_page_item > a').css({"backgroundColor": "#00468b", "color": "#ffffff"});
                                 $('#submenu').hide;
                                 $('#submenuspacer').hide;
                                 $('.submenuitem').hide;
