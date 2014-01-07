@@ -120,13 +120,24 @@ body
     margin-right: auto;
 }
 
+ul
+{
+    margin:0px;
+}
+
 .menuitem 
 {
-    height: 50px;
     width:auto;
-    text-align: left;
     float:left;
+    display:inline-block;
+}
+
+.menuitem>a
+{
+    height: 50px;
+    display:block;
     padding:30px 10px 0px 10px;
+    text-decoration:none;
 }
 
 #content 
