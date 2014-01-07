@@ -1,10 +1,10 @@
                 $(document).ready(function() {
-                    $('.menuitem:eq(".active")').css({"background-color": "#00468b", "color": "#ffffff"});
+                    $('.menuitem:eq(".active")').css({"backgroundColor": "#00468b", "color": "#ffffff"});
                     
                     $('.menuitem').hover(
                             function()
                             {
-                                $(this).css({"background-color": "#00468b", "color": "#ffffff"});
+                                $(this).css({"backgroundColor": "#00468b", "color": "#ffffff"});
                                 $('#submenu').stop().animate({height: 30}, 100);
                                 $('#submenuspacer').stop().animate({height: 30}, 100);
                                 $('.submenuitem').stop().animate({height: 30}, 100);
@@ -14,8 +14,8 @@
                             },
                             function()
                             {
-                                $(this).css({"background-color": "", "color": "#000000"});
-                                $('.menuitem:eq(<?php echo $id; ?>)').css({"background-color": "#00468b", "color": "#ffffff"});
+                                $(this).css({"backgroundColor": "", "color": "#000000"});
+                                $('.menuitem:eq(<?php echo $id; ?>)').css({"backgrounColor": "#00468b", "color": "#ffffff"});
                                 $('#submenu').hide;
                                 $('#submenuspacer').hide;
                                 $('.submenuitem').hide;
@@ -53,10 +53,10 @@
                     $('#back').hover(
                             function()
                             {
-                                $(this).css({"background-color": "#00468b", "color": "#ffffff"});
+                                $(this).css({"backgroundColor": "#00468b", "color": "#ffffff"});
                             },
                             function()
                             {
-                                $(this).css({"background-color": "", "color": "#000000"});
+                                $(this).css({"backgroundColor": "", "color": "#000000"});
                             });
                 });
